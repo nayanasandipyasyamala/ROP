@@ -1,0 +1,27 @@
+dataset,country,category,task_role,severity_group,images,patients
+ROP-VL,China,normal,Normal,None,623,381
+ROP-VL,China,Laser-treated ROP,Excluded from Task A (post-treatment),None,345,224
+ROP-VL,China,Stage 2 ROP,ROP,mild,338,253
+ROP-VL,China,Stage 3 ROP,ROP,moderate,241,174
+ROP-VL,China,Stage 1 ROP,ROP,mild,236,180
+ROP-VL,China,A-ROP,ROP,severe,148,103
+ROP-VL,China,Stage 4 ROP,ROP,severe,59,46
+ROP-VL,China,Stage 5 ROP,ROP,severe,30,27
+Ostrava,Czech Republic,DG 0: physiological (Normal),Normal,None,2980,135
+Ostrava,Czech Republic,DG 1: ROP 0 (ambiguous),Excluded,None,45,4
+Ostrava,Czech Republic,DG 2: ROP 1,ROP (Task A),mild,252,12
+Ostrava,Czech Republic,DG 3: ROP 2,ROP (Task A),mild,458,11
+Ostrava,Czech Republic,DG 4: ROP 3,ROP (Task A),moderate,125,2
+Ostrava,Czech Republic,DG 8: AP-ROP,Excluded from main analysis (single patient; sensitivity analysis only),severe,470,1
+Ostrava,Czech Republic,DG 9: st.p. ROP (post-ROP),Excluded,None,379,13
+Ostrava,Czech Republic,DG 10: hamartomas (non-ROP),Excluded,None,72,2
+Ostrava,Czech Republic,DG 11: hemorrhage (non-ROP),Excluded,None,1061,35
+Ostrava,Czech Republic,DG 12: hypoplasia n.II (non-ROP),Excluded,None,48,2
+Ostrava,Czech Republic,DG 13: toxoplasma (non-ROP),Excluded,None,114,1
+FARFUM,Iran,Normal plus form (still ROP-screened),Plus-disease side task only (not Task A),normal_plus,782,35
+FARFUM,Iran,Pre-plus,Plus-disease side task only (not Task A),pre_plus,479,21
+FARFUM,Iran,Plus,Plus-disease side task only (not Task A),plus_disease,272,15
+HVDROPDB,India,Neo_Normal,Normal (external test),not graded,50,not provided
+HVDROPDB,India,Neo_ROP,ROP (external test; definition not documented),not graded,35,not provided
+HVDROPDB,India,RetCam_Normal,Normal (external test),not graded,50,not provided
+HVDROPDB,India,RetCam_ROP,ROP (external test; definition not documented),not graded,50,not provided

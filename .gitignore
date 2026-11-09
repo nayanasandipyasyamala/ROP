@@ -1,0 +1,43 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+.venv*/
+env/
+venv/
+ENV/
+
+# Jupyter Notebook checkpoints & runtime
+.ipynb_checkpoints/
+.jupyter_runtime/
+
+# IDE configurations
+.vscode/
+.idea/
+
+# Large Raw Datasets 
+ROP-VL/
+Ostrava/
+HVDROPDB_v3/
+processed/
+
+# Zip Archives & Downloaded dumps
+*.zip
+*.tar
+*.tar.gz
+*.7z
+
+# Model weights & Checkpoints (>100MB cannot be pushed to standard GitHub without Git LFS)
+# To track weights, use Git LFS or download from GitHub Releases / Zenodo
+checkpoints/*.pt
+rop_severity_model.pt
+
+
+# OS-specific artifacts
+Thumbs.db
+Desktop.ini
+.DS_Store
+

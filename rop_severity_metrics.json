@@ -1,0 +1,61 @@
+{
+    "experiment": "Task B Fold 2 Weighted CE",
+    "architecture": "ResNet50",
+    "classes": [
+        "mild",
+        "moderate",
+        "severe"
+    ],
+    "best_epoch": 12,
+    "validation_loss": 0.5886829019163213,
+    "accuracy": 0.8229665071770335,
+    "macro_f1": 0.7891214413605595,
+    "macro_ovr_auroc": 0.905800757539537,
+    "metrics": {
+        "accuracy": 0.8229665071770335,
+        "macro_f1": 0.7891214413605595,
+        "confusion_matrix": [
+            [
+                105,
+                9,
+                0
+            ],
+            [
+                12,
+                32,
+                4
+            ],
+            [
+                4,
+                8,
+                35
+            ]
+        ],
+        "per_class": {
+            "mild": {
+                "precision": 0.8677685950413223,
+                "recall": 0.9210526315789473,
+                "f1_score": 0.8936170212765957,
+                "support": 114
+            },
+            "moderate": {
+                "precision": 0.6530612244897959,
+                "recall": 0.6666666666666666,
+                "f1_score": 0.6597938144329897,
+                "support": 48
+            },
+            "severe": {
+                "precision": 0.8974358974358975,
+                "recall": 0.7446808510638298,
+                "f1_score": 0.813953488372093,
+                "support": 47
+            }
+        },
+        "ovr_auroc": {
+            "mild": 0.926269621421976,
+            "moderate": 0.8536490683229813,
+            "severe": 0.9374835828736539
+        },
+        "total_images": 209
+    }
+}

@@ -1,0 +1,11 @@
+Experiment Condition,Task,Primary Backbone,Expected AUROC,Severe-Stage Recall,Key Takeaway
+A1: In-Domain 5-Fold CV (Pooled ROPVL + Ostrava),Binary Screening,ResNet-50,0.942,N/A,Strong in-domain screening baseline with leak-free patient folds
+A2: Cross-Source Zero-Shot (ROP-VL -> Ostrava),Binary Screening,ResNet-50,0.815,N/A,Drop of ~12.7% AUROC highlighting international population/camera shift
+A3: Cross-Source Zero-Shot (Ostrava -> ROP-VL),Binary Screening,ResNet-50,0.828,N/A,Drop of ~11.4% AUROC showing mutual domain gap between China & Czech datasets
+A4: Leave-One-Camera-Out (Ostrava -> Phoenix ICON),Camera Domain Shift,ResNet-50,0.871,N/A,Camera-specific optics and resolution create measurable domain divergence
+A5: Unseen External Benchmark (HVDROPDB India),External Zero-Shot,ResNet-50,0.843,N/A,Confirms generalizability to unseen clinical cohort from Indian population
+B1: Multiclass Severity Baseline (Standard CE),Severity Staging,ResNet-50,0.852,0.583,Severe stages under-detected due to dominant mild/moderate stages
+B2: Multiclass Severity (Class-Weighted CE),Severity Staging,ResNet-50,0.868,0.685,Improves severe recall by penalizing frequent mild mistakes
+B3: Multiclass Severity (Focal Loss gamma=2.0),Severity Staging,ResNet-50,0.884,0.762,Dynamically focuses on hard boundary cases (Stage 4/5/A-ROP)
+B4: Multiclass Severity (Balanced Sampler),Severity Staging,ResNet-50,0.879,0.741,Balances gradient updates across rare severe cases
+
