@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Retinopathy of Prematurity (ROP) Detection & Severity Classification
 
 > **Undergraduate Research Opportunities Program (UROP) Project**  
@@ -343,3 +344,6 @@ This research is conducted under the **Undergraduate Research Opportunities Prog
   publisher = {Department of Computer Science & Engineering, SRM University-AP}
 }
 ```
+=======
+# ROP
+>>>>>>> ddcaf8ad819a4a54a361bd1e2098c22067d0987b
